@@ -4,21 +4,21 @@ A machine learning project that predicts the real-time win probability of a team
 Author: Divyansh Mathur
 
 📋 Table of Contents
-Project Overview
+[Project Overview]
 
-Features
+[Features]
 
-Dataset
+[Dataset]
 
-Methodology
+[Methodology]
 
-Technologies Used
+[Technologies Used]
 
-Setup & Installation
+[Setup & Installation]
 
-How to Use the Model
+[How to Use the Model]
 
-Model Performance
+[Model Performance]
 
 📝 Project Overview
 The goal of this project is to build a robust machine learning model that can predict the win probability for the chasing team in an IPL match. The prediction is based on the state of the game at any given point, including the current score, wickets remaining, balls left, and required run rate. The final output is a trained LogisticRegression model saved as pipe.pkl, which can be integrated into other applications for real-time predictions.
