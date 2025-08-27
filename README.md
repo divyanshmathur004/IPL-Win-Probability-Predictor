@@ -90,34 +90,28 @@ To run this project locally, follow these instructions:
 
 Clone the repository:
 
-Bash
-
 git clone https://github.com/divyanshmathur004/IPL-Win-Probability-Predictor.git
 cd IPL-Win-Probability-Predictor
-Create and activate a virtual environment (recommended):
 
-Bash
+Create and activate a virtual environment (recommended):
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 Install the required dependencies:
 (First, create a requirements.txt file with numpy, pandas, and scikit-learn listed inside.)
 
-Bash
-
 pip install -r requirements.txt
+
 Run the Jupyter Notebook:
 To see how the model was trained, launch Jupyter Notebook and open ipl_data_train.ipynb.
 
-Bash
-
 jupyter notebook
+
 🧠 How to Use the Model
 The saved pipe.pkl file can be loaded to make predictions on new data. The input should be a Pandas DataFrame containing the required features.
 
 Here is a sample Python script to make a prediction:
-
-Python
 
 import pickle
 import pandas as pd
@@ -149,5 +143,6 @@ loss_prob = result[0][0] # Probability of losing
 
 print(f"Win Probability for {input_data['batting_team'].values[0]}: {round(win_prob*100, 2)}%")
 print(f"Loss Probability for {input_data['batting_team'].values[0]}: {round(loss_prob*100, 2)}%")
+
 🎯 Model Performance
 The Logistic Regression model was chosen for its reliability and ability to output clear probabilities. After training, the model achieved an accuracy of 80.7% on the test set.
