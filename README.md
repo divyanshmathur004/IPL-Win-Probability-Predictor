@@ -2,7 +2,14 @@
 
 A machine learning web application that predicts the real-time win probability of an IPL cricket match using Logistic Regression.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](your-app-url-here)
+[![Live App on Hugging Face](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-blue?logo=huggingface)](https://huggingface.co/spaces/divmathur004/ipl-win-predictor)
+
+
+## 🌐 Live Demo
+
+Try the app here:  
+👉 **https://huggingface.co/spaces/divmathur004/ipl-win-predictor**
+
 
 ## 📊 Features
 
